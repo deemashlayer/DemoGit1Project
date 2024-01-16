@@ -45,14 +45,13 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">isldsadmin</value>
-    <value name="createdDate">1705436717653</value>
-    <value name="lastModifiedDate">1705436717653</value>
+    <value name="lastModifiedBy">isldsadmin</value>
+    <value name="lastModifiedDate">1705436729159</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">eca593fd8ab64cc39db61fbec422ea88</value>
+      <value name="id">ed1c047620a44555aafcce5c2f6e3de4</value>
       <value name="group">default</value>
-      <value name="name">Cloud Runtime</value>
-      <value name="executionPlaneType">cloud</value>
+      <value name="name">Demo1</value>
+      <value name="executionPlaneType">onprem</value>
     </record>
     <value name="displayName">depCurrDateService</value>
     <value name="description"></value>

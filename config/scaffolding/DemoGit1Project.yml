@@ -21,3 +21,13 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.686
+- serviceName: project.demogit1.integrations:depCurrDateService
+  packages:
+  - name: DemoGit1Project
+    version: "1.0"
+  - name: DepDemoPackage
+    version: "1.0"
+- serviceName: demo:simpleService
+  packages:
+  - name: DepDemoPackage
+    version: "1.0"
