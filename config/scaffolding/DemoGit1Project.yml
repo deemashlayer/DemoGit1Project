@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/deemashlayer/DemoGit1Project
   gitUsername: deemashlayer
   gitBranch: main
+services:
+- serviceName: project.demogit1.integrations:currDateGit1
+  packages:
+  - name: DemoGit1Project
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.686
