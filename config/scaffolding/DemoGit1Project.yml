@@ -7,6 +7,11 @@ packages:
   gitUrl: https://github.com/deemashlayer/DemoGit1Project
   gitUsername: deemashlayer
   gitBranch: main
+- name: DepDemoPackage
+  gitServerName: Dima
+  gitUrl: https://github.com/deemashlayer
+  gitUsername: deemashlayer
+  gitBranch: master
 services:
 - serviceName: project.demogit1.integrations:currDateGit1
   packages:
