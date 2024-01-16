@@ -42,6 +42,18 @@ services:
     version: "1.0"
   - name: DepDemoPackage
     version: "1.0"
+- serviceName: project.demogit1.integrations:demoOracleCloud1
+  packages:
+  - name: DemoGit1Project
+    version: "1.0"
+  - name: DepDemoPackage
+    version: "1.0"
+- serviceName: project.demogit1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:Demo1DB
+  packages:
+  - name: DemoGit1Project
+    version: "1.0"
+  - name: DepDemoPackage
+    version: "1.0"
 configurationVariables:
   ? artConnection.DemoGit1Project.project.demogit1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_Demo.connectionSettings.user
   : JDBC_BVT
@@ -56,7 +68,7 @@ configurationVariables:
   ? artConnection.DemoGit1Project.project.demogit1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_Demo.connectionManagerSettings.maximumPoolSize
   : "10"
   ? artConnection.DemoGit1Project.project.demogit1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_Demo.connectionEnabled
-  : "false"
+  : "true"
   ? artConnection.DemoGit1Project.project.demogit1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_Demo.connectionManagerSettings.startupRetryCount
   : "0"
   ? artConnection.DemoGit1Project.project.demogit1.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_Demo.connectionManagerSettings.poolIncrementSize
