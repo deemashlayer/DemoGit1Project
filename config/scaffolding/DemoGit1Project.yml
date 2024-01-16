@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: DemoGit1Project
+  gitServerName: Dima
+  gitUrl: https://github.com/deemashlayer/DemoGit1Project
+  gitUsername: deemashlayer
+  gitBranch: main
